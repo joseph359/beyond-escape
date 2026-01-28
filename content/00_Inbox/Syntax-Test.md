@@ -1,0 +1,16 @@
+> [!info] 提示
+> 这是 Quartz 最好用的功能之一。
+> 适合放：**环境配置说明**、**代码注意事项**。
+
+> [!warning] 警告 > 这里不要放我的网贷逾期记录，因为是公开的
+
+
+$$
+J(\theta) = \frac{1}{2m} \sum_{i=1}^m (h_\theta(x^{(i)}) - y^{(i)})^2
+$$
+
+def learning_path(role):
+    if role == "Data Engineer":
+        return "Python + SQL + Quartz"
+    else:
+        return "Enjoy Life"
