@@ -9,8 +9,3 @@ J(\theta) = \frac{1}{2m} \sum_{i=1}^m (h_\theta(x^{(i)}) - y^{(i)})^2
 $$
 
 
-def learning_path(role):
-    if role == "Data Engineer":
-        return "Python + SQL + Quartz"
-    else:
-        return "Enjoy Life"
