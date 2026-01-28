@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          // 白天模式：如同清晨的桦树林，清爽的薄荷白背景
-          light: "#f4f7f4",       // 背景：极浅的薄荷白
-          lightgray: "#e0e8e0",   // 边框：浅灰绿
-          gray: "#789c85",        // 次要文字：中等灰绿
-          darkgray: "#2c4c3b",    // 主要文字：深苔藓绿（代替纯黑）
-          dark: "#1a3c2b",        // 标题：最深的森林绿
-          secondary: "#a87b5f",   // 链接：暖土棕色（画中的小路）
-          tertiary: "#c29478",    // 悬停：稍亮的陶土色
-          highlight: "rgba(168, 123, 95, 0.15)", // 高亮背景
+          // 白天模式：清爽薄荷
+          light: "#f4f7f4",
+          lightgray: "#e0e8e0",
+          gray: "#789c85",
+          darkgray: "#2c4c3b",
+          dark: "#1a3c2b",
+          secondary: "#4a8a7b",   // 核心变化：深青绿 (Teal)
+          tertiary: "#66a394",    
+          highlight: "rgba(74, 138, 123, 0.15)",
         },
         darkMode: {
-          // 黑夜模式：如同深入画面中的密林，沉浸、深邃
-          light: "#1a2e22",       // 背景：深邃的墨绿色森林阴影
-          lightgray: "#2a4234",   // 边框：稍亮的深绿
-          gray: "#7da386",        // 次要文字：柔和的鼠尾草绿
-          darkgray: "#e8f0e8",    // 主要文字：米白薄荷色（高可读性）
-          dark: "#a2c3a8",        // 标题：明亮的浅灰绿
-          secondary: "#b88c70",   // 链接：稍亮的暖棕色，在深背景更显眼
-          tertiary: "#d4a88c",    // 悬停色
-          highlight: "rgba(184, 140, 112, 0.20)", // 高亮背景
+          // 黑夜模式：幽光森林
+          light: "#1a2e22",
+          lightgray: "#2a4234",
+          gray: "#7da386",
+          darkgray: "#e8f0e8",
+          dark: "#a2c3a8",
+          secondary: "#a9d4c3",   // 核心变化：发光的青灰色 (Aqua)
+          tertiary: "#c0e8d5",    
+          highlight: "rgba(169, 212, 195, 0.20)",
         },
       },
     },
