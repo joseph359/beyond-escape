@@ -29,25 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf9f6",      // 背景：米白/羊皮纸色
-          lightgray: "#e8e6e3",  
-          gray: "#8c8883",       
-          darkgray: "#4a4a4a",   // 文字：深灰（比纯黑柔和）
-          dark: "#2c2c2c",       
-          secondary: "#8a5a44",  // 链接：陶土棕
-          tertiary: "#5c3d2e",   // 悬停：咖啡色
-          highlight: "rgba(138, 90, 68, 0.15)",
+          // 白天模式：如同清晨的桦树林，清爽的薄荷白背景
+          light: "#f4f7f4",       // 背景：极浅的薄荷白
+          lightgray: "#e0e8e0",   // 边框：浅灰绿
+          gray: "#789c85",        // 次要文字：中等灰绿
+          darkgray: "#2c4c3b",    // 主要文字：深苔藓绿（代替纯黑）
+          dark: "#1a3c2b",        // 标题：最深的森林绿
+          secondary: "#a87b5f",   // 链接：暖土棕色（画中的小路）
+          tertiary: "#c29478",    // 悬停：稍亮的陶土色
+          highlight: "rgba(168, 123, 95, 0.15)", // 高亮背景
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          // 黑夜模式：如同深入画面中的密林，沉浸、深邃
+          light: "#1a2e22",       // 背景：深邃的墨绿色森林阴影
+          lightgray: "#2a4234",   // 边框：稍亮的深绿
+          gray: "#7da386",        // 次要文字：柔和的鼠尾草绿
+          darkgray: "#e8f0e8",    // 主要文字：米白薄荷色（高可读性）
+          dark: "#a2c3a8",        // 标题：明亮的浅灰绿
+          secondary: "#b88c70",   // 链接：稍亮的暖棕色，在深背景更显眼
+          tertiary: "#d4a88c",    // 悬停色
+          highlight: "rgba(184, 140, 112, 0.20)", // 高亮背景
         },
       },
     },
