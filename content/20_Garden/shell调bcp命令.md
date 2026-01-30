@@ -1,11 +1,9 @@
 #!/bin/bash
 
-# ==========================================
 # 1. 环境配置
-# ==========================================
+
 # 加载系统配置 (移到这里)
 source /etc/profile
-
 # 强制加载 Sybase 环境变量 (防止 ct_connect 报错)
 if [ -f "/opt/sybase/SYBASE.sh" ]; then
     source /opt/sybase/SYBASE.sh
@@ -15,9 +13,8 @@ else
     export LD_LIBRARY_PATH=$SYBASE/$SYBASE_OCS/lib:$LD_LIBRARY_PATH
 fi
 
-# ==========================================
 # 2. 接收参数
-# ==========================================
+
 TABLE_NAME="$1"
 FILE_NAMES="$2"
 
@@ -26,10 +23,8 @@ if [ -z "$TABLE_NAME" ] || [ -z "$FILE_NAMES" ]; then
     echo "用法: $0 <表名> <文件列表>"
     exit 1
 fi
-
-# ==========================================
 # 3. 执行逻辑
-# ==========================================
+
 IFS=',' read -ra FILE_ARRAY <<< "$FILE_NAMES"
 TOTAL_COUNT=${#FILE_ARRAY[@]}
 FAIL_COUNT=0
