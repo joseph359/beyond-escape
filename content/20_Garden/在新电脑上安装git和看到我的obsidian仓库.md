@@ -96,21 +96,17 @@
     ```
     
     如果能看到本地网页，说明你的新电脑环境配置完美成功！
+---
 
+**遇到问题一**
 
-**遇到问题一
+PS C:\Users\cool'sheep\Documents\beyond-escape> node -v  
 
-PS C:\Users\cool'sheep\Documents\beyond-escape> node -v
+v24.13.0  
 
-v24.13.0
+PS C:\Users\cool'sheep\Documents\beyond-escape> npm ci  
 
-PS C:\Users\cool'sheep\Documents\beyond-escape> npm ci
-
-npm : 无法加载文件 C:\Program Files\nodejs\npm.ps1，因为在此系统上禁止运行脚本。有关详细信息，请参阅 https:/go.microsof
-
-t.com/fwlink/?LinkID=135170 中的 about_Execution_Policies。
-
-所在位置 行:1 字符: 1**
+npm : 无法加载文件 C:\Program Files\nodejs\npm.ps1，因为在此系统上禁止运行脚本。有关详细信息，请参阅 https:/go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies。  
 
 这是一个非常经典的 Windows PowerShell **权限拦截**问题。
 
@@ -118,7 +114,6 @@ t.com/fwlink/?LinkID=135170 中的 about_Execution_Policies。
 
 即使你是管理员，默认也是锁着的。作为工程师，你需要手动**解除这个封印**。
 
-这里有两种解决办法，**推荐第一种**，一次解决，永不复发。
 
 🔧 方法一：解除 PowerShell 封印（推荐）
 
