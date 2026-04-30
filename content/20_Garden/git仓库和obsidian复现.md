@@ -135,3 +135,7 @@ npm : 无法加载文件 C:\Program Files\nodejs\npm.ps1，因为在此系统上
     
 
 **做完这步后，再次输入 `npm ci`，应该就能跑起来了！**
+
+# 设置 HTTPS 代理
+git config --global http.proxy http://127.0.0.1:7897
+git config --global https.proxy http://127.0.0.1:7897
